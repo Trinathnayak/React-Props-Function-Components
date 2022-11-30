@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+/*import ClassComponent from "./ClassComponent"
+import ClassComponent1 from "./ClassComponent1"
+function App(){
+  return(
+    <section>
+      <p>code red</p>
+      <h1>Nee yabba code red raa code red</h1>
+      <p>This is ClassComponent</p>
+      <ClassComponent/>
+      <ClassComponent1/>
+    </section>
+  )
 }
-
-export default App;
+export default App*/
+import PropsExample from "./PropsExample"
+function App(){
+  return(
+    <div>
+    <h1>This is about prop example</h1>
+    <PropsExample name="Trinath nayak" age="19"/>
+    </div>
+    )
+}
+export default App
