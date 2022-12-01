@@ -12,7 +12,8 @@ function App(){
   )
 }
 export default App*/
-import PropsExample from "./PropsExample"
+
+/*import PropsExample from "./PropsExample"
 function App(){
   return(
     <div>
@@ -21,4 +22,25 @@ function App(){
     </div>
     )
 }
+export default App*/
+
+import ClassComponent2 from "./ClassComponent2"
+import StateExample from "./StateExample"
+function App(){
+return(
+  <section>
+    <h1>code red</h1>
+    <h2>Nee yabba code red raa code red</h2>
+    <p>This is ClassComponent</p>
+    <ClassComponent2/>
+    <StateExample/>
+  </section>
+)
+}
 export default App
+
+
+
+
+
+
