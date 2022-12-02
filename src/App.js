@@ -24,17 +24,21 @@ function App(){
 }
 export default App*/
 
-import ClassComponent2 from "./ClassComponent2"
-import StateExample from "./StateExample"
+// import ClassComponent2 from "./ClassComponent2"
+// import StateExample from "./StateExample"
+import Events from "./Events"
 function App(){
 return(
   <section>
-    <h1>code red</h1>
-    <h2>Nee yabba code red raa code red</h2>
-    <p>This is ClassComponent</p>
-    <ClassComponent2/>
-    <StateExample/>
-  </section>
+    <h1>naku ami tealudu sir </h1>
+    <h1>a 5 hatyalu neana chasanu</h1>
+    <h2>Hey nandi are you crazy</h2>
+    <h3>anduku ani naynam ayena vastuvalunu tayaru chayadam leadu</h3>
+    {/* <ClassComponent2/>
+    <StateExample/> */}
+    <Events/>  
+
+    </section>
 )
 }
 export default App

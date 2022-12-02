@@ -1,5 +1,4 @@
 import React from "react"
-
 class ClassComponent1 extends React.Component{
 	render(){
 		return(
